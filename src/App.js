@@ -32,7 +32,7 @@ const App = () => {
                 mockupImg={assets.mockup}
                 banner="banner02"
             />
-            <Download  />
+            <Download  link="https://github.com/Souleymane03/pronerf.git"/>
             <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
                 <p className={`${styles.pText} ${ styles.whiteText }`}>Made with love by { " "}
                       <span className="bold">ApiMan</span>
