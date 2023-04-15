@@ -18,7 +18,7 @@ const SectionWrapper = ({title, description, showBtn, mockupImg, banner, reverse
                     ${reverse ? styles.blackText : styles.whiteText}
                     ${styles.descriptionText}`}>{description}</p>
                     {showBtn && (
-                        <Button assetUrl={assets.expo} link="exp://exp.host/@apiman/nftshopapp?release-channel=default"/>
+                        <Button assetUrl={assets.expo} link="expo.dev/@apiman/nftshopapp?release-channel=default"/>
                     )}
                 </div>
                 <div className={` flex-1 ${styles.flexCenter} p-8 sm:px-9 ${reverse ? "fadeLeftMini" : "fadeRightMini"}`}>
